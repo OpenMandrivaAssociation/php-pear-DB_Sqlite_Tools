@@ -12,7 +12,6 @@ License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/DB_Sqlite_Tools/
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
-Patch0:		%{name}-path_fix.patch
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -42,7 +41,6 @@ done
 
 # strip away annoying ^M
 find -type f | grep -v ".gif" | grep -v ".png" | grep -v ".jpg" | xargs dos2unix -U
-%patch0 -p1
 
 %install
 rm -rf %{buildroot}
