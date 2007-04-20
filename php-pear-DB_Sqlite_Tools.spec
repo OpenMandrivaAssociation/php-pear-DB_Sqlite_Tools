@@ -6,8 +6,8 @@
 
 Summary:	%{_pearname} - OO interface designed to effectively manage and backup Sqlite databases
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
-Release:	%mkrel 7
+Version:	0.1.6
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/DB_Sqlite_Tools/
