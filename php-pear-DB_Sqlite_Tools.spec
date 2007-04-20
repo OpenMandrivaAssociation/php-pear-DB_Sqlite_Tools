@@ -47,8 +47,8 @@ rm -rf %{buildroot}
 
 install -d %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/%{_ssclass}
 
-install %{_pearname}-%{version}/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}
-install %{_pearname}-%{version}/%{_ssclass}/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/%{_ssclass}
+install %{_pearname}-%{version}/%{_class}/%{_subclass}/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/
+install %{_pearname}-%{version}/%{_class}/%{_subclass}/%{_ssclass}/*.php %{buildroot}%{_datadir}/pear/%{_class}/%{_subclass}/%{_ssclass}
 
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m0644 package.xml %{buildroot}%{_datadir}/pear/packages/%{_pearname}.xml
