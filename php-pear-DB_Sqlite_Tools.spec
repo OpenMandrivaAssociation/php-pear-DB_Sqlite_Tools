@@ -17,6 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 DB_Sqlite_Tools is extends the native PHP-sqlite function by providing
