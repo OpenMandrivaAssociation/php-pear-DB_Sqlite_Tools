@@ -1,2 +1,4 @@
+removed_sources:
+  DB_Sqlite_Tools-0.1.6.tar.bz2: cc1325391d41a3cd25a2b346ec62186d28b82df1
 sources:
-  "DB_Sqlite_Tools-0.1.6.tar.bz2": cc1325391d41a3cd25a2b346ec62186d28b82df1
+  DB_Sqlite_Tools-0.1.7.tgz: b2aa6fe75b4f84208d6aa7ca8f0f378e3a48cdfa
