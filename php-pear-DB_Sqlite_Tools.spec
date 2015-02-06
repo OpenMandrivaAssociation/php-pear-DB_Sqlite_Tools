@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.7
-Release:	1
+Release:	2
 Summary:	OO interface designed to effectively manage and backup Sqlite databases
 License:	PHP License
 Group:		Development/PHP
