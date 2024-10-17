@@ -9,7 +9,7 @@ Release:	2
 Summary:	OO interface designed to effectively manage and backup Sqlite databases
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/DB_Sqlite_Tools/
+URL:		https://pear.php.net/package/DB_Sqlite_Tools/
 Source0:	http://download.pear.php.net/package/DB_Sqlite_Tools-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
